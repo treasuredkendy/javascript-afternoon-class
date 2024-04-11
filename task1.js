@@ -54,6 +54,7 @@ const cars = [
       }
     }
   ];
+  //use dot notation and bracket notation to solve these:-
   
   // What is the mileage of the Honda? 
 
