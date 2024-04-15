@@ -57,9 +57,14 @@ const cars = [
   //use dot notation and bracket notation to solve these:-
   
   // What is the mileage of the Honda? 
-
+  let honda = cars[1]
+console.log(honda.details.mileage);
   // Check if the last car is a Japanese brand:
-
+console.log(cars[2].japanese);
   //Change the last color of the first car to "red" and log the updated colors array: 
-
+cars[0].colors[2] = "red";
+console.log(cars[0].colors[2] = "red");
   // Check if the first car has sunroof
+  console.log(cars[0].details.features.sunroof);
+  cars[1].details.engine.type = "2.0l I3";
+  console.log(  cars[1].details.engine.type)
