@@ -24,7 +24,7 @@ else if(mark>30){
 // 2. rewrite this using switch statement
 
 
-switch (mark) {
+switch (true) {
   case mark >= 80:
     console.log("grade:A");
     break;

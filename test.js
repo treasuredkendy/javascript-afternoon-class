@@ -1,24 +1,24 @@
-let mark = 70
+// Get a reference to the button element
+const addButton = document.getElementById("add-button");
 
-switch(mark) {
-    case mark >= 80:
-      console.log("grade:A");
-     break;
-    case mark >= 70:
-      console.log("grade:B");
-      break;
-    case mark >= 60:
-      console.log("grade:C");
-      break;
-    case mark >= 50:
-      console.log("grade:D");
-      break;
-    case mark >= 40:
-      console.log("grade:E");
-      break;
-    case mark < 30:
-      console.log("grade:F");
-      break;
-    default:
-      console.log("grade: Invalid mark (below 30)");
-  }
+// Add a click event listener to the button
+addButton.addEventListener("click", function() {
+  // Create a new list item element
+  const newListItem = document.createElement("li");
+  newListItem.textContent = "This is a new list item!";
+
+  // Get a reference to the list element where you want to add the item
+  const list = document.getElementById("my-list");
+
+  // Append the new list item to the list element
+  list.appendChild(newListItem);
+});
+
+
+
+
+// Get a reference to the element with the ID "welcome-message"
+const messageElement = document.getElementById("welcome-message");
+
+// Change the content of the element
+messageElement.textContent = "Hello, there! Welcome to the website.";
